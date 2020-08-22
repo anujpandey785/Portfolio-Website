@@ -1,0 +1,10 @@
+{
+    "NAME":"ANUJ PANDEY",
+    "ABOUT_ME":"I am a First year undergraduate student with a proficiency in python",
+
+    "LANGUAGES":["Python","JavaScript","Java","C++"],
+
+    "PROJECTS":[["filter_drama","Google","A very good search engine"],
+    ["place","Youtube","A very good Video streaming website"],
+    ["whatshot","Facebook","A very good social media"]]
+}
