@@ -1,17 +1,26 @@
 {% load static %}
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio</title>
+    <link rel = "icon" href =  
+    "https://static.wikia.nocookie.net/naruto/images/5/52/Mangeky%C5%8D_Sharingan_Itachi.svg/revision/latest/scale-to-width-down/200?cb=20110803151309" 
+        type = "image/x-icon"> 
+    <script src="{% static 'js/materialize.min.js' %}"></script>
+    <script src="{% static 'js/slider.js' %}"></script>
     <link rel="stylesheet" href="{% static 'css/materialize.min.css' %}">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-    <script src="{% static 'js/materialize.min.js' %}"></script>
-
+    <link rel="stylesheet" href="{% static 'css/footer.css' %}">
+    <link rel="stylesheet" href="{% static 'css/base.css' %}">
 </head>
+
 <body>
+    <div id="particles-js"></div>
+    <script src="{% static 'js/particles.js' %}"></script>
+    <script src="{% static 'js/app.js' %}"></script>
+
     {% block content %}
     {% endblock %}
 
@@ -19,6 +28,6 @@
 
 
     {% endblock %}
-
 </body>
+    
 </html>

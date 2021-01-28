@@ -16,3 +16,7 @@ def projects(request):
 def languages(request):
     context={"languages":settings.DATA["LANGUAGES"],}
     return render(request,'main/languages.html',context)
+
+def mentions(request):
+    context={}
+    return render(request,'main/mentions.html',context)

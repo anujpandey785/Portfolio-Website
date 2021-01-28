@@ -1,9 +1,10 @@
-<nav>
+<nav class="transparent">
     <div class="nav-wrapper">
-      <a href="{% url 'index' %}" class="brand-logo">Portfolio Website</a>
+      <a href="{% url 'index' %}" class="brand-logo" class="flow-text" >Portfolio Website</a>
       <ul id="nav-mobile" class="right hide-on-med-and-down">
-        <li><a href="{% url 'projects' %}">Projects</a></li>
-        <li><a href="{% url 'languages' %}">Languages</a></li>
+        <li  ><a href="{% url 'projects' %}" class="flow-text"  >Projects</a></li>
+        <li  ><a href="{% url 'mentions' %}" class="flow-text" >Mentions</a></li>
+        <li ><a href="{% url 'languages' %}" class="flow-text" >Languages</a></li>
       </ul>
     </div>
   </nav>

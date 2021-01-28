@@ -1,11 +1,12 @@
 {% extends 'main/base.html' %}
 {% block content %}
 {% include 'main/navbar.html' %}
+{% include 'main/slider.html' %}
 <div class ="container">
     <h1 class="center-align">Projects</h1>
     <div class="row">
         <div class="col s12 m6">
-            <div class="card blue-grey darken-1">
+            <div class="card blue-grey darken-1 hoverable">
                 <div class="card-content white-text">
                   <span class="card-title">These are some of my favourite Projects 
                   </span>
@@ -27,7 +28,7 @@
     </div>
 
 </div class>
-
+{% include 'main/footer.html' %}
 {% endblock %}
 
 

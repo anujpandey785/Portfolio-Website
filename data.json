@@ -1,10 +1,15 @@
 {
-    "NAME":"ANUJ PANDEY",
+    "NAME":"ANUJ  PANDEY",
     "ABOUT_ME":"I am a Second year Undergraduate student with a Bachelor of Engineering Degree Focussed in Information Technology ",
 
     "LANGUAGES":["Python","JavaScript","Java","C++"],
 
-    "PROJECTS":[["filter_drama","Google","A very good search engine"],
+    "PROJECTS":[
+    ["filter_drama","Google","A very good search engine"],
     ["place","Youtube","A very good Video streaming website"],
-    ["whatshot","Facebook","A very good social media"]]
+    ["whatshot","Facebook","A very good social media"],
+    ["whatshot1","Facebook","A very good social media"],
+    ["whatshot1","Facebook","A very good social media"],
+    ["whatshot1","Facebook","A very good social media"]
+]
 }
